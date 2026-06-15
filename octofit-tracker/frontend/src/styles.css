@@ -1,2 +1,62 @@
-body { font-family: system-ui, Arial, sans-serif; margin: 0; padding: 2rem; }
-.app { max-width: 800px; margin: 0 auto; }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: system-ui, -apple-system, sans-serif;
+	background-color: #f8f9fa;
+	color: #212529;
+}
+
+.navbar {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.card {
+	border: none;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.table {
+	margin-bottom: 0;
+}
+
+.badge {
+	font-size: 0.85rem;
+	padding: 0.5rem 0.75rem;
+}
+
+.alert {
+	border-radius: 8px;
+	border: none;
+}
+
+code {
+	background-color: #f5f5f5;
+	padding: 0.2rem 0.4rem;
+	border-radius: 4px;
+	font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 1rem;
+	}
+}
