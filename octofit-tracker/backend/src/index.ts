@@ -6,7 +6,7 @@ import activitiesRouter from './routes/activities'
 import leaderboardRouter from './routes/leaderboard'
 import workoutsRouter from './routes/workouts'
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017/octofit'
+const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017/octofit_db'
 const PORT = process.env.PORT ? Number(process.env.PORT) : 8000
 
 // Codespaces-aware API URL
